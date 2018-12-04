@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -9,15 +9,15 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Warning! This site is radioactive!  <br/><span class="danger">PLEASE MOVE AWAY AT FULL SPEED!</span>
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.ready.gov/nuclear-explosion"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Survival Tips
           </a>
         </header>
       </div>
